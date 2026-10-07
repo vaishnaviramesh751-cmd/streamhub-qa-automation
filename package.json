@@ -1,0 +1,17 @@
+{
+  "name": "streamhub-qa-automation",
+  "version": "1.0.0",
+  "description": "Playwright and Cucumber QA automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require \"step-definitions/**/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.63.0"
+  }
+}
